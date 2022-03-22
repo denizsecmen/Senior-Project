@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(78, 76, 78);
+    background-color: rgba(78, 76, 78,0.5);
 }
 #navbar
 {
@@ -11,6 +11,16 @@ body
     left: 20%;
     top:0%;
     border-bottom: 1px solid gray;
+}
+#hdn
+{
+    background-color: white;
+    height: 7%;
+    width: 20%;
+    position: absolute;
+    left: 0%;
+    top:0%;
+    border-bottom: 1px solid gray; 
 }
 #sec #zogo img
 {
@@ -25,14 +35,13 @@ body
 }
 iframe
 {
-    height: 93%;
-    width: 80%;
+    height: 93% !important;
+    width: 80% ;
     position: absolute;
     top: 7%;
     left:20%;
     border: 0px;
     padding: 0px;
-    background-color:rgba(255, 255, 255,0.50);
 }
 #ver-navb
 {
@@ -55,7 +64,7 @@ iframe
     padding: 0px;
     background-color: black;
 }
-#sec  img
+#sec a img
 {
     height: 22px !important;
     width: 22px !important;
@@ -199,7 +208,7 @@ background-color:  rgba(255,255,255,0.2);
 {
     content: url("./icons/aleb.png");
 }
-#sec li:hover #grap
+#sec li:hover #grazp
 {
     content: url("./icons/Graphs.png");
 }

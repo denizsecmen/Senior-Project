@@ -1,0 +1,29 @@
+#scren
+{
+ overflow-y: scroll;
+ position: absolute;
+ border:1px solid black;
+ border-radius: 2px;
+ left:5%;
+ width:90%;
+ top:2%;
+ height: 90%;
+ background-color:lightgrey;
+}
+button
+{
+position: absolute;
+top: 94%;
+height:5%;
+width: 10%;
+}
+#select
+{
+position: absolute;
+left:85%;
+}
+#remove
+{
+position: absolute;
+left:5%;
+}

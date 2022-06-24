@@ -1,0 +1,226 @@
+body
+{
+    background-color: rgba(78, 76, 78,0.5) !important;
+}
+#navbar
+{
+    background-color: white;
+    height: 7%;
+    width: 80%;
+    position: absolute;
+    left: 20%;
+    top:0%;
+    border-bottom: 1px solid gray;
+}
+#hdn
+{
+    background-color: white;
+    height: 7%;
+    width: 20%;
+    position: absolute;
+    left: 0%;
+    top:0%;
+    border-bottom: 1px solid gray; 
+}
+#sec #zogo img
+{
+    height: 32px !important;
+    width: 32px !important;
+    position: absolute;
+    top: 0%;
+    margin-left: 5px;
+    padding: 0px; 
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#screen
+{
+    height: 93% !important;
+    width: 80% ;
+    position: absolute;
+    top: 7%;
+    left:20%;
+    border: 0px;
+    padding: 0px;
+}
+#ver-navb
+{
+    list-style: none;
+    width:20%;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    border-right:1px solid rgba(255,255,255,0.4);
+    left:0px;
+    padding: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#sec
+{
+    width: 4%;
+    height: 100%;
+    position: absolute;
+    border-right: 1px solid rgba(255,255,255,0.4);
+    left:-100px;
+    padding: 0px;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#sec a img
+{
+    height: 22px !important;
+    width: 22px !important;
+    position: absolute;
+    top: 20%;
+    margin-left: 5px;
+    padding: 0px;
+}
+#sec li
+{
+    height: 5% ;
+    width:100% ;
+    position: relative;
+    right: 0px;
+    left:5px;
+    margin-bottom: 15px !important;
+    padding: 0px;
+    cursor: pointer;
+    list-style: none;
+}
+#sec li button
+{
+    background-color: black;
+    color: #0ba2f8;
+    margin-left: 10px;
+}
+#ver-navb div
+{
+    list-style: none;
+    font-size: 30px;
+    color:#0ba2f8;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#ver-navb div img
+{
+    height: 45px;
+    width: 45px;
+}
+#ver-navb #search
+{
+    background-color: black !important;
+    border:none !important;
+}
+#ver-navb li input
+{
+    margin-left: 10px;
+}
+#ver-navb li
+{
+    height: 5% ;
+    width:100% ;
+    position: relative;
+    right: 0px;
+    margin-bottom: 15px !important;
+    padding: 0px;
+    cursor: pointer;
+}
+#ver-navb #logo #gos
+{
+    color:#0ba2f8;
+    background-color: black;
+}
+#ver-navb li div
+{
+    background-color:#0ba2f8;
+    position: relative;
+    width: 1%;
+    height: 0.5%;
+    left: 96%;
+}
+#ver-navb li img
+{
+    height: 22px !important;
+    width: 22px !important;
+    position: absolute;
+    top: 20%;
+    margin-left: 5px;
+    padding: 0px;
+}
+#ver-navb a
+{
+    color:white;
+    font-size: 18px;
+    position: absolute;
+    top: 10%;
+    margin-left: 32px;
+    pointer-events: none;
+}
+#ver-navb li:hover{
+background-color:  rgba(255,255,255,0.2);
+
+}
+#ver-navb li:hover a
+{
+    color:#0ba2f8;
+    text-decoration: none;
+    font-size: 18px;
+}
+#ver-navb li:hover #help
+{
+    content: url("./icons/qmb.png");
+}
+#ver-navb li:hover #noti
+{
+    content: url("./icons/notib.png");
+}
+#ver-navb li:hover #log
+{
+    content: url("./icons/fileb.png");
+}
+#ver-navb li:hover #set
+{
+    content: url("./icons/setb.png");
+}
+#ver-navb li:hover #alert
+{
+    content: url("./icons/aleb.png");
+}
+#ver-navb li:hover #grap
+{
+    content: url("./icons/Graphs.png");
+}#sec li:hover #help
+{
+    content: url("./icons/qmb.png");
+}
+#sec li:hover #noti
+{
+    content: url("./icons/notib.png");
+}
+#sec li:hover #log
+{
+    content: url("./icons/fileb.png");
+}
+#sec li:hover #set
+{
+    content: url("./icons/setb.png");
+}
+#sec li:hover #alert
+{
+    content: url("./icons/aleb.png");
+}
+#sec li:hover #grazp
+{
+    content: url("./icons/Graphs.png");
+}
+#sec li div
+{
+    background-color: #0ba2f8;
+    position: absolute;
+    height: 0.5%;
+    left: 90%;
+    width: 4%;
+}

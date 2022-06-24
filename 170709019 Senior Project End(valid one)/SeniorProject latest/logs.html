@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style-logs.css">
+  <script src="logs.js"></script>
+</head>
+<body>
+    <div id="prv" style="display: none;">
+    </div>
+      <div id="scren">
+      </div>
+      <button id="remove"  type="button" class="btn btn-primary" onclick="test()">
+        Remove
+      </button>
+      <button  id="select" type="button" class="btn btn-primary" onclick="$('#myModal').modal('show');" >
+        Select
+      </button>
+<!--=================MODAL==============================-->
+<div class="container">
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">File selection</h4>
+          </div>
+          <div class="modal-body">
+          Select the file:
+          </br>
+          <input type="file" id="filesa" onchange="alert(document.getElementById('filesa').files[0].path.toString());">
+        </br>
+    Select the log type:
+      </br> 
+      <select id="lgtype">
+      <option value="standart-log">Standart Apache Event Log</option>
+      <option value="standart-log">Standart OpenSSH Log</option>
+      <option value="win-event">Windows Event Log</option>
+      <option value="profixier">Profixier Event Log</option>
+      </select>
+    </br>
+      <button type="button" class="btn btn-default" data-dismiss="modal" 
+      onc
+      
+      style="position:absolute;top:90%;left:73%;height:22%;bottom:15%;">Close</button>
+       <button type="button" class="btn btn-default" data-dismiss="modal" onclick="tt()" style="position:absolute;top:90%;left:88%;height:22%;bottom:15%;">Apply</button>
+          </div>
+        </br>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--=================MODAL==============================-->
+</body>
+</html>

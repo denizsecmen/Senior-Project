@@ -1,0 +1,52 @@
+body
+{
+    background-color: #a6a5a6 !important;
+}
+#rawlog
+{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top:60%;
+    width: 98%;
+    height: 250px;
+    font-size: 14px;
+    overflow-y: scroll;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+#pie
+{
+    position: absolute;
+    top:1%;
+    left:1%;
+    width:100%;
+    max-width:400px;
+    max-height:300px !important;
+    background-color: white;
+    border-radius: 3px;
+}
+#pit
+{
+    position: absolute;
+    top:1%;
+    left:1%;
+    width:100%;
+    left:430px;
+    max-width:400px;
+    max-height:300px !important;
+    background-color: white;
+    border-radius: 3px;
+}
+#sit
+{
+    position: absolute;
+    top:1%;
+    width:100%;
+    left: 850px;
+    max-width:400px;
+    max-height:300px !important;
+    background-color: white;
+    border-radius: 3px;
+    overflow-y: scroll;
+}

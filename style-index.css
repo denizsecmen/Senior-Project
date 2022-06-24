@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgba(78, 76, 78,0.5);
+    background-color: rgba(78, 76, 78,0.5) !important;
 }
 #navbar
 {
@@ -33,7 +33,7 @@ body
     margin-bottom: 30px;
     margin-top: 10px;
 }
-iframe
+#screen
 {
     height: 93% !important;
     width: 80% ;
@@ -53,6 +53,8 @@ iframe
     border-right:1px solid rgba(255,255,255,0.4);
     left:0px;
     padding: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 #sec
 {
@@ -63,6 +65,8 @@ iframe
     left:-100px;
     padding: 0px;
     background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 #sec a img
 {
@@ -211,4 +215,12 @@ background-color:  rgba(255,255,255,0.2);
 #sec li:hover #grazp
 {
     content: url("./icons/Graphs.png");
+}
+#sec li div
+{
+    background-color: #0ba2f8;
+    position: absolute;
+    height: 0.5%;
+    left: 90%;
+    width: 4%;
 }
